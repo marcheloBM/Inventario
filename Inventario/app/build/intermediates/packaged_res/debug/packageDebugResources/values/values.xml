@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="Bienvenidos">Bienvenidos</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Login">Iniciar sesión</string>
+    <string name="Nombre">Nombre</string>
+    <string name="RegistrarUsuario">Registrar Usuario</string>
+    <string name="Usuario">Usuario</string>
+    <string name="app_name">Inventario</string>
+    <string name="btnActualizar">Actualizar</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnEliminar">Eliminar</string>
+    <string name="btnFoto">Foto</string>
+    <string name="btnIngresar">Ingresar</string>
+    <string name="btnInsertar">Insertar</string>
+    <string name="btnListar">Listar</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnRegistrarse">Registrarse</string>
+    <string name="btnSalir">Salir</string>
+    <string name="btnVersion">Version</string>
+    <string name="btnVolver">Volver</string>
+    <string name="idiomaPorDefecto">Español</string>
+    <string name="stock">Stock</string>
+    <string name="textoIncio">BIENVENIDO</string>
+    <string name="tipo">Tipo</string>
+    <string name="txtBuscar">Buscar Por Nombre</string>
+    <string name="txtNombre">Ingrese Nuevo Nombre</string>
+    <string name="txtStock"> Ingrese Nuevo Stock</string>
+    <string name="txtValor"> Ingrese Nuevo Valor</string>
+    <string name="valor">Valor</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

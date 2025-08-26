@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/layout_activity_registro.xml.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/layout/activity_registro.xml"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/drawable-pt_pais.png.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/drawable-pt/pais.png"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/layout_activity_ingresar_datos.xml.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/layout/activity_ingresar_datos.xml"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/drawable_login.png.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/drawable/login.png"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/drawable-en_pais.png.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/drawable-en/pais.png"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/layout_activity_inicio.xml.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/layout/activity_inicio.xml"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/drawable_pais.png.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/drawable/pais.png"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/drawable_shop.jpg.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/drawable/shop.jpg"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/layout_activity_listar_datos.xml.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/layout/activity_listar_datos.xml"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/layout_activity_main.xml.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.marchelo.inventario.app-debug-20:/layout_activity_buscar_datos.xml.flat",
+        "source": "com.example.marchelo.inventario.app-main-22:/layout/activity_buscar_datos.xml"
+    }
+]
