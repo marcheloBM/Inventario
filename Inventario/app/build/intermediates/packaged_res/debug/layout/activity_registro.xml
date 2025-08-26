@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.marchelo.inventario.Registro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/RegistrarUsuario"
+        android:id="@+id/lblRegistroUsuario"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#060606" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgLogin"
+        android:src="@drawable/login"
+        android:layout_below="@+id/lblRegistroUsuario"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Nombre"
+        android:id="@+id/lblNombre"
+        android:layout_below="@+id/imgLogin"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="25dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombre"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblNombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/txtContraseñaRe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Usuario"
+        android:id="@+id/lblUsuarioRe"
+        android:layout_below="@+id/txtNombre"
+        android:layout_alignParentLeft="true"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUsuarioRe"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblUsuarioRe"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/txtContraseñaRe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Contraseña"
+        android:id="@+id/lblcontracenaRe"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtUsuarioRe"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtContraseñaRe"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblcontracenaRe"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRegistrar"
+        android:id="@+id/btnRegistrar"
+        android:onClick="registrar"
+        android:layout_below="@+id/txtContraseñaRe"
+        android:layout_alignParentLeft="true"
+        android:layout_toStartOf="@+id/lblRegistroUsuario" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCancelar"
+        android:id="@+id/btbCancelar"
+        android:onClick="cancelar"
+        android:layout_alignTop="@+id/btnRegistrar"
+        android:layout_toRightOf="@+id/lblRegistroUsuario"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
