@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         //Cargar datos de los Botones
         et1= (EditText) findViewById(R.id.txtUsuario);
         et2= (EditText) findViewById(R.id.txtContraseña);
+        // Verificar actualización al iniciar
+        UpdateChecker.checkForUpdate(this);
     }
 
     //Metodo para ingresar del Login
