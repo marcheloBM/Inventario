@@ -7,7 +7,7 @@ buildscript {
         mavenCentral() // Add this
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.13.2' // Example updated version
+        classpath 'com.android.tools.build:gradle:9.0.0' // Example updated version
     }
 }
 ext {
